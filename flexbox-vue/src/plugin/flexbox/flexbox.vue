@@ -1,7 +1,7 @@
 <template>
   <!-- 为组件绑定一个类，这个类的值通过计算属性来得出 -->
   <div class="flexbox-plugin"
-      :class="classObj">
+      :class="styleObj">
     <!-- slot 用来装载子组件，flexbox-item-plugin -->
     <slot></slot>
   </div>
@@ -37,7 +37,7 @@
       // 通过父级传递过来的参数，
       // 来判断该组件需要应用哪些样式
       // 如：<my-flexbox orient="vertical" justify="flex-start"></my-flexbox>
-      classObj() {
+      styleObj() {
 
         let classObj = {};
         // orient
