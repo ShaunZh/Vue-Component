@@ -1,5 +1,5 @@
 // 引入 scss 文件
-import './flexbox.scss'
+import './flexbox.css'
 
 // 引用组件
 export { default as flexbox } from './flexbox.vue'
