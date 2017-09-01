@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+  <flexbox-plugin orient="vertical">
+    <p>demo</p>
+    <p>demo</p>
+  </flexbox-plugin>
+  <my-flexbox-item></my-flexbox-item>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
 
 export default {
   name: 'app',
-  components: {
-    Hello
-  }
 }
 </script>
 
