@@ -1,28 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <div class="marquee-wrap" style="width: 100px;"><marquee-vue content="3aaaaa3333" class="two"  :showtwo="false"></marquee-vue></div>
+    <div class="marquee-wrap" style="width: 100px;"><marquee-vue content="222aaaa22" class="two"  :showtwo="false"></marquee-vue></div>
+    <div class="marquee-wrap" style="width: 100px;"><marquee-vue content="1" class="two"  :showtwo="false"></marquee-vue></div>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Marquee from './Marquee.vue';
+// import Css from '../dist/marquee-vue.min.css'
 
 export default {
   name: 'app',
-  components: {
-    Hello
-  }
+  components:{
+      "marquee-vue": Marquee
+    },
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

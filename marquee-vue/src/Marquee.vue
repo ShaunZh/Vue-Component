@@ -36,6 +36,7 @@
       this.$nextTick(() => {
         let out = _this.$refs.out.clientWidth;
         let _in = _this.$refs.in.clientWidth;
+        _this.run = _in > out ? true : false;
       });
     }
   }
