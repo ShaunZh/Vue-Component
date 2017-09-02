@@ -48,15 +48,15 @@ Vue.use(Flexbox);
   - orient (flex-direction)
     - type: String,
     - default: 'horizontal'
-    - options: 'horizontal' || 'vertical'
+    - options: 'horizontal' | 'vertical'
   - justify: 
     - type: String
     - default: 'flex-start'
-    - options: 'flex-start' || 'flex-end' || 'center' || 'space-between' || 'space-around'
+    - options: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around'
   - align:
     - type: String
     - default: flex-start
-    - options: 'flex-start' || 'flex-end' || 'center' || 'baseline' || 'stretch'
+    - options: 'flex-start' | 'flex-end' | 'center' | 'baseline' | 'stretch'
     
 **FlexboxItem**
   - grow (flex-grow)
