@@ -48,19 +48,19 @@ export default {
 </script>
 ```
 
-##Props
+## Props
 - **content**
  the text display in marquee
- - type: String
- - default: ""
+  - type: String
+  - default: ""
  
 - **speed**
- the speed of scroll
- - default: 'middle'
- - type: String
+  the speed of scroll
+  - default: 'middle'
+  - type: String
 
 - **showtwo**
- - default: true
- - type: bool
+  - default: true
+  - type: bool
 
 
