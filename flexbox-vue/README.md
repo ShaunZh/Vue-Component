@@ -11,11 +11,8 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+# package
+npm run prod
 ```
 
 ## Usage 
@@ -60,6 +57,7 @@ Vue.use(Flexbox);
     - type: String
     - default: flex-start
     - options: 'flex-start' || 'flex-end' || 'center' || 'baseline' || 'stretch'
+    
 **FlexboxItem**
   - grow (flex-grow)
     - type: Number
