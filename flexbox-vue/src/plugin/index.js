@@ -12,5 +12,5 @@ const install = function (Vue, Option) {
 }
 
 export default {
-  install,
+  install
 }

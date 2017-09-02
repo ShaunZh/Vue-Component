@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-09-01 23:58:44
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-09-02 09:44:45
+* @Last Modified time: 2017-09-02 13:49:10
 */
 
 var path = require('path');
@@ -13,7 +13,7 @@ module.exports = {
     main: './src/plugin/index.js'
   },
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, '../dist'),
     publicPath: './',
     filename: 'flexbox-vue.js',
     library: 'flexbox-vue',

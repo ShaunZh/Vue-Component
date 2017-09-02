@@ -1,6 +1,6 @@
 {
   "name": "flexbox-vue",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A Vue Component to flexbox",
   "author": "hexonZhang <308826842@qq.com>",
   "private": false,
@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "prod": "webpack --config build/webpack.config.js"
   },
   "main": "dist/flexbox-vue.js",
   "dependencies": {
