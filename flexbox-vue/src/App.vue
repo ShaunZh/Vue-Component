@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <flexbox-plugin orient="vertical">
-      <flexbox-item-plugin grow="1">
+    <FlexboxContainer orient="vertical">
+      <FlexboxItem grow="1">
         demo1
-      </flexbox-item-plugin>
-      <flexbox-item-plugin>
+      </FlexboxItem>
+      <FlexboxItem>
         demo2
-      </flexbox-item-plugin>
-    </flexbox-plugin>
+      </FlexboxItem>
+    </FlexboxContainer>
   </div>
 </template>
 

@@ -1,17 +1,17 @@
 <template>
   <!-- 为组件绑定一个类，这个类的值通过计算属性来得出 -->
-  <div class="flexbox-plugin"
+  <div class="FlexboxContainer"
       :class="styleObj">
-    <!-- slot 用来装载子组件，flexbox-item-plugin -->
+    <!-- slot 用来装载子组件，flexboxItem -->
     <slot></slot>
   </div>
 </template>
 
 <script>
   export default {
-    name: 'flexbox-plugin',
+    name: 'FlexboxContainer',
     props: {
-      // 子组件 flexbox-item-plugin 之间是否存在间隙
+      // 子组件 flexboxItem 之间是否存在间隙
       // 默认：8px 的间隙
       gutter: {
         type: Number,

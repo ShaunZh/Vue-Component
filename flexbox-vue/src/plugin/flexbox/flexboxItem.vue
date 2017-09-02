@@ -1,5 +1,5 @@
 <template>
-    <div class="flexbox-item-plugin"
+    <div class="FlexboxItem"
          :style="styleObj">
         <slot></slot>
     </div>
@@ -7,7 +7,7 @@
 
 <script>
 export default {
-    name: 'flexbox-item-plugin',
+    name: 'FlexboxItem',
     props: {
         grow: {
             type: [String, Number],

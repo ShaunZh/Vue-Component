@@ -1,7 +1,8 @@
-import * as flexbox from './flexbox'
+import * as Flexbox from './Flexbox'
+
 
 const components = {
-  ...flexbox
+  ...Flexbox
 }
 
 const install = function (Vue, Option) {
@@ -11,5 +12,5 @@ const install = function (Vue, Option) {
 }
 
 export default {
-  install
+  install,
 }

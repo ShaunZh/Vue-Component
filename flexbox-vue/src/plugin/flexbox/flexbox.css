@@ -2,9 +2,9 @@
 * @Author: Marte
 * @Date:   2017-09-01 21:30:21
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-09-01 22:15:29
+* @Last Modified time: 2017-09-02 10:27:04
 */
- .my-flexbox {
+ .FlexboxContainer {
     width: 100%;
     display: flex;
 }
